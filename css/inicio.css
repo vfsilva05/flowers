@@ -24,6 +24,7 @@ button {
     padding: 2vw 4vw; /* Tornando o padding responsivo */
     font-size: 4vw; /* Tornando o tamanho da fonte responsivo */
     cursor: pointer;
+    margin-top: 2vw; /* Adicionando margem entre o texto e o botão */
 }
 
 /* Adicionando regras de mídia para dispositivos com largura máxima de 768 pixels (típico para smartphones em modo retrato) */
@@ -35,5 +36,6 @@ button {
     button {
         padding: 3vw 6vw; /* Reduzindo o padding para telas menores */
         font-size: 5vw; /* Reduzindo o tamanho da fonte para telas menores */
+        margin-top: 3vw; /* Adicionando margem entre o texto e o botão para telas menores */
     }
 }
