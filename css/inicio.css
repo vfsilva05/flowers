@@ -24,3 +24,13 @@ button {
     font-size: 24px;
     cursor: pointer;
 }
+
+/* Media query para dispositivos móveis com largura máxima de 600 pixels */
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 64px; /* Ajuste o tamanho da fonte conforme desejado */
+    }
+    button {
+        font-size: 18px; /* Ajuste o tamanho da fonte conforme desejado */
+    }
+}
